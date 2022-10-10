@@ -1,4 +1,57 @@
-table, th, td{
+/* select all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header,main, footer */
+header, main, footer{
+    min-width: 100%;
+}
+header, footer{
+    background-color: pink;
+}
+
+/* display:inline-flex */
+header, .menu-list {
+    display: inline-flex;
+
+}
+
+/* header */
+header {
+    display: inline-flex;
+}
+header img{
+    width: 5em;
+}
+
+/* menu */
+.menu{
+    margin-left: auto;
+    align-self: center;
+}
+
+/* menu-list (removes bullets on ul)*/
+.menu-list{
+    list-style: none;
+}
+
+.menu-list li{
+    padding: 0 5px;
+}
+/* table */
+table{
     border: 3px solid black;
-    
+    border-collapse: collapse;
+}
+th, td{
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+/* footer */
+footer p{
+    font-weight: bold;
 }
