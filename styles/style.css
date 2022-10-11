@@ -41,6 +41,7 @@ header img{
 .menu-list li{
     padding: 0 5px;
 }
+
 /* table */
 table{
     border: 3px solid black;
@@ -54,4 +55,21 @@ th, td{
 /* footer */
 footer p{
     font-weight: bold;
+
+   /*box1*/
+}
+#box1{
+    background-color: green;
+    margin: auto;
+    border-radius: 30px;
+    width: 300px;
+}
+#box1P{
+    /* Font-color => Text */
+    color:black;
+    font-weight:bold;
+}
+
+#box1 p{
+    color:red;
 }
