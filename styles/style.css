@@ -79,3 +79,12 @@ footer p{
     font-weight:bold;
 }
 
+.phone ul li:first-child {
+    font-style: italic; 
+    color: red;
+
+}
+.phone ul li:last-child{
+    font-style: italic;
+    color: red;
+}
