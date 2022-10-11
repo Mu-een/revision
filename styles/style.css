@@ -60,9 +60,18 @@ footer p{
 }
 #box1{
     background-color: green;
+    color: white;
     margin: auto;
     border-radius: 30px;
     width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin is space around element */
+    margin: 10px 10px 20px 20px ; 
+    border: 10px solid black;
+
 }
 #box1P{
     /* Font-color => Text */
@@ -70,6 +79,3 @@ footer p{
     font-weight:bold;
 }
 
-#box1 p{
-    color:red;
-}
